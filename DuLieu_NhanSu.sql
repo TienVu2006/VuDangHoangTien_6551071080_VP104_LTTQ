@@ -1,0 +1,9 @@
+CREATE DATABASE DuLieu_NhanSu;
+GO
+USE DuLieu_NhanSu;
+GO
+CREATE TABLE NhanVien (
+    MaNhanVien NVARCHAR(10) PRIMARY KEY,
+    TenNhanVien NTEXT NOT NULL,
+    LuongCoBan NVARCHAR(12) NOT NULL
+);
